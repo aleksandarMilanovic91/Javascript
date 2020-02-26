@@ -1,0 +1,56 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.main-wrap {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/*HEADER*/
+
+
+header {
+	background-color: #eb4034;
+	box-shadow: 0 0 6px 0 black;
+}
+
+
+header .team-logo {
+	display: block;
+}
+
+header .team-logo img {
+	width: 200px;
+}
+
+body h1 {
+	font-size: 30px;
+	padding: 10px;
+	font-weight: bold;
+}
+
+section.players {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+section.players .player {
+	margin-bottom: 15px;
+}
+
+section.reserves {
+	border-top: 2px solid red;
+	padding-top: 20px;
+}
+
+section img {
+	width: 100%;
+	max-width: 300px;
+	height: 350px;
+	padding-right: 15px;
+
+}
