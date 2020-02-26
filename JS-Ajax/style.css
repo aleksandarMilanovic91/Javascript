@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+}
+
+h1 {
+	padding-top: 20px;
+	padding-bottom: 30px;
+}	
+
+div {
+	padding-bottom: 30px;
+}
+
+img {
+	margin: 80px auto;
+    width: 100%;
+    max-width: 500px;
+    height: 500px;
+}
